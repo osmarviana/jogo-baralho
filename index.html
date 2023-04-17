@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Baralho</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h1>Jogo de Baralho</h1>
+    <span>O jogador que tirar a maior carta vence</span>
+
+    .
+    <div class="players-cards">
+      <div class="container">
+        <h2>Player 01</h2>
+        <img
+          class="card"
+          id="card-01"
+          src="./src/img/deck-01.png"
+          alt="Deck do player 01"
+        />
+
+        <button id="take-card-01">Tirar carta aleatória</button>
+      </div>
+      <div class="compare">
+        <span>X</span>
+        <button class="btn-compare" id="btn-compare">Comparar</button>
+      </div>
+      <div class="container">
+        <h2>Player 02</h2>
+        <img
+          class="card"
+          id="card-02"
+          src="./src/img/deck-02.png"
+          alt="Deck do player 02"
+        />
+
+        <button id="take-card-02">Tirar carta aleatória</button>
+      </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
