@@ -1,0 +1,29 @@
+@media (max-width: 690px) {
+    h1{
+        margin-top: 100px;
+    }
+  .players-cards {
+    flex-direction: column;
+  }
+
+  .container-card {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 150px;
+  }
+
+  #take-card-01,
+  #take-card-02 {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .compare .btn-compare {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 30px 0;
+  }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jogo de Baralho</title>
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
     <link
       rel="shortcut icon"
       href="./src/img/favicon.ico"
@@ -13,38 +14,37 @@
     />
   </head>
   <body>
-    <h1>Jogo de Baralho</h1>
-    <span>O jogador que tirar a maior carta vence</span>
+    <main class="main">
+      <h1>Jogo de Baralho</h1>
+      <span>O jogador que tirar a maior carta vence</span>
 
-    .
-    <div class="players-cards">
-      <div class="container">
-        <h2>Player 01</h2>
-        <img
-          class="card"
-          id="card-01"
-          src="./src/img/deck-01.png"
-          alt="Deck do player 01"
-        />
+      .
+      <div class="players-cards">
+        <div class="container-card">
+          <img
+            class="card"
+            id="card-01"
+            src="./src/img/deck-01.png"
+            alt="Deck do player 01"
+          />
 
-        <button id="take-card-01">Tirar carta aleatória</button>
-      </div>
-      <div class="compare">
-        <span>X</span>
-        <button class="btn-compare" id="btn-compare">Comparar</button>
-      </div>
-      <div class="container">
-        <h2>Player 02</h2>
-        <img
-          class="card"
-          id="card-02"
-          src="./src/img/deck-02.png"
-          alt="Deck do player 02"
-        />
+          <button id="take-card-01">Player 01</button>
+        </div>
+        <div class="compare">
+          <button class="btn-compare" id="btn-compare">Comparar</button>
+        </div>
+        <div class="container-card">
+          <img
+            class="card"
+            id="card-02"
+            src="./src/img/deck-02.png"
+            alt="Deck do player 02"
+          />
 
-        <button id="take-card-02">Tirar carta aleatória</button>
+          <button id="take-card-02">Player 02</button>
+        </div>
       </div>
-    </div>
+    </main>
 
     <script src="./src/js/script.js"></script>
   </body>
